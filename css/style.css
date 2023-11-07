@@ -19,12 +19,11 @@ body{
 }
 
 header{
-    min-height: 80px;
     background-color: white;
 }
 
 header img {
-    height: 80px;
+    height: 60px;
     border-radius: 20px;
 }
 
