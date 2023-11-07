@@ -40,13 +40,31 @@ footer{
     width: 500px;
 }
 
-.square{
+.squareEasy{
     display: flex;
     justify-content: center;
     align-items: center;
     border: solid 1px black;
-    height: calc(100% / var(--num-cells-row));
-    width: calc(100% / var(--num-cells-row));
+    height: calc(100% / 10);
+    width: calc(100% / 10);
+}
+
+.squareMedium{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    height: calc(100% / 9);
+    width: calc(100% / 9);
+}
+
+.squareDifficult{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    height: calc(100% / 7);
+    width: calc(100% / 7);
 }
 
 .selected{
