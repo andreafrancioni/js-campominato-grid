@@ -7,6 +7,9 @@ let squareDim;
 /*** PULSANTE PLAY AVVIO GIOCO ***/
 playBtn.addEventListener("click", function() {
     
+    /** SVUOTA IL CAMPO DI GIOCO ***/
+    grid.innerHTML = "";
+
     /*** VERIFICA MODALITA DI GIOCO ***/
     if(gameMode.value == 1){
         numCells = 100;
