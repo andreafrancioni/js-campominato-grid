@@ -1,0 +1,55 @@
+/* VARIABILI */
+
+:root{
+
+    --num-cells-row: 10;
+
+}
+
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #777;
+}
+
+header{
+    min-height: 80px;
+    background-color: white;
+}
+
+header img {
+    height: 80px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: white;
+    min-height: 100px
+}
+
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+}
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    height: calc(100% / var(--num-cells-row));
+    width: calc(100% / var(--num-cells-row));
+}
+
+.selected{
+    background: red;
+}
